@@ -1,33 +1,34 @@
 # AI Contribution Statement
 
-**Required with every "Open" assignment submission** (see the Assessment Calendar in the course schedule — this does not apply to AI-Free assessments like Live Extension Labs or Oral Defenses, where no AI use is permitted at all).
+## 1. Tools Used
 
-Copy this file into your repo as `AI_CONTRIBUTION.md` and fill in all four sections before you submit. Keep it short — a few sentences per section is plenty. This is not a report card; it's a reflection, and it's graded on completion and honesty, not on how much or how little you used AI.
-
----
-
-## 1. Tools used
-
-Name the specific AI tool(s) you used (e.g. ChatGPT, Claude, GitHub Copilot) and, if you know it, which model.
-
-*Example: "Claude (Sonnet), used in the browser. Also used GitHub Copilot's inline autocomplete while writing the component files."*
+I used ChatGPT by OpenAI to help me understand the assignment requirements and complete parts of the React project.
 
 ## 2. Prompts
 
-Briefly describe the kind of help you asked for — not a verbatim transcript, just enough for a reader to understand how you used it. Debugging a specific error? Generating boilerplate? Explaining a concept from the book? Asking it to review your code?
+I asked for help with:
 
-*Example: "Asked it to explain why my `.map()` wasn't re-rendering when state changed. Asked it to generate the initial CSS for the card layout, which I then modified by hand."*
+- Understanding the README requirements
+- Updating the parent class component
+- Using state in React
+- Using `.map()` to display multiple pets
+- Passing props to a child component
+- Creating a callback function for the Feed / Interact button
+- Updating the README
+- Troubleshooting the screenshot setup
 
-## 3. What it got wrong
+## 3. What AI Got Wrong
 
-Name at least one concrete thing the AI got wrong, misunderstood, or produced that didn't actually work — and how you noticed and fixed it. If nothing it gave you was wrong, that's worth saying too, but push yourself to look closely; this section is the one that shows you actually read and tested what you were given rather than pasting it in.
+At first, the AI suggested changing some of the starter data and pet names before fully checking how I wanted to personalize the project.
 
-*Example: "It suggested mutating state directly with `.push()`, which the book explicitly warns against — I caught it because the list wouldn't re-render, and replaced it with `.concat()`."*
+I noticed this because I wanted to use my own creative pet names instead. I corrected the names myself in `data.js`.
 
 ## 4. Reflection
 
-2–3 sentences on what you learned, or how using the tool changed (or didn't change) your understanding of the code you submitted. Could you explain every line of your submission without the AI's help?
+I learned how state can be stored in a parent React class component and passed to child components through props.
 
----
+I also learned how a child component can call a function from the parent to update state.
 
-*Why this exists: using AI well is a skill, and the fastest way to lose that skill is to stop noticing when it's wrong. This statement is graded on whether it's honest and specific, not on how it makes your AI usage look.*
+I understand how `.map()` is used to create multiple pet cards from an array of data.
+
+I can explain the main parts of the project, including the state, props, callback function, and button interaction.
